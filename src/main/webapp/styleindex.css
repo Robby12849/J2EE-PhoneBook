@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #333;
+}
+
+.titolo {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 40px;
+}
+
+.titolo h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+form {
+    margin: 20px 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+.bottone {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.bottone:hover {
+    background-color: #45a049;
+}
+
+/* Specific styles for the form elements */
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.scritte {
+    margin-bottom: 20px;
+}
+
+.scritte input[type="text"],
+.scritte input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#submit {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+    background-color: #45a049;
+}
